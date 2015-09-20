@@ -380,7 +380,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = nxtbgthng;
 			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "OAuth2Client" */;
@@ -502,6 +502,7 @@
 		1DEB922308733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -548,6 +549,7 @@
 					"-framework",
 					Foundation,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nxtbgthng.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = OAuth2Client;
 				SDKROOT = macosx;
 			};
@@ -579,6 +581,7 @@
 					"-framework",
 					Foundation,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nxtbgthng.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = OAuth2Client;
 				SDKROOT = macosx;
 				ZERO_LINK = NO;
